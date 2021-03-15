@@ -16,10 +16,10 @@
 
 export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const TWITTER_USER_NAME = 'afdec';
+export const BRAND_NAME = 'AFDEC';
+export const SITE_NAME_MULTILINE = ['Webinaires', 'AFDEC'];
+export const SITE_NAME = 'Webinaires AFDEC';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
 export const SITE_DESCRIPTION =
@@ -41,19 +41,19 @@ export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
+    name: 'Session 1',
     route: '/stage/a'
   },
   {
-    name: 'Stage C',
+    name: 'Session 2',
     route: '/stage/c'
   },
   {
-    name: 'Stage M',
+    name: 'Session 3',
     route: '/stage/m'
   },
   {
-    name: 'Stage E',
+    name: 'Session 4',
     route: '/stage/e'
   },
   {
