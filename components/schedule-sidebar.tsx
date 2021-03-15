@@ -37,10 +37,10 @@ export default function ScheduleSidebar({ allStages }: Props) {
 
   return (
     <div className={styles.schedule}>
-      <h3 className={styles.header}>Schedule</h3>
-      <p>{SHORT_DATE}</p>
+      <h3 className={styles.header}>Programme</h3>
+      <p></p>
       <Select
-        aria-label="Select a stage"
+        aria-label="Choisissez votre session"
         value={currentStageSlug}
         onChange={e => {
           const slug = e.target.value;

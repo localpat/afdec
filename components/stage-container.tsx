@@ -61,7 +61,7 @@ export default function StageContainer({ stage, allStages }: Props) {
                 rel="noopener noreferrer"
                 className={styles.button}
               >
-                <span>Join the chat on</span>
+                <span>Exprimez-vous</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"

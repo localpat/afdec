@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://afdecarib.org/webinaires';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'afdec';
 export const BRAND_NAME = 'AFDEC';
 export const SITE_NAME_MULTILINE = ['Webinaires', 'AFDEC'];
 export const SITE_NAME = 'Webinaires AFDEC';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+  "L' AFDEC (Association Francophone d Etudes Caribbeenes) propose une série de séminaires sur le thème : [re]penser les crises au prisme de l'exemple Caribéen.";
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
-export const DATE = 'October 27, 2020';
+  "Une série de webinaires pour [re]penser les crises au prisme de l'exemple caribéen.";
+export const DATE = '18/03/21 - 20/04/21 - 01/06/21 - 21/09/21';
 export const SHORT_DATE = 'Oct 27 - 9:00am PST';
 export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
 export const TWEET_TEXT = META_DESCRIPTION;
@@ -57,20 +57,12 @@ export const NAVIGATION = [
     route: '/stage/e'
   },
   {
-    name: 'Schedule',
+    name: 'Programme',
     route: '/schedule'
   },
   {
-    name: 'Speakers',
+    name: 'Intervenants',
     route: '/speakers'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
   }
 ];
 
