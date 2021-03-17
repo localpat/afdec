@@ -68,6 +68,9 @@ export default function Page({ meta, children, fullViewport = false }: Props) {
             content={image.startsWith('https://') ? image : `${SITE_URL}${image}`}
           />
         )}
+        <script type="module" src="https://unpkg.com/hls-video-element"></script>
+        <script type="module" src="https://unpkg.com/media-chrome"></script>
+
       </Head>
       {children}
     </div>

@@ -31,7 +31,7 @@ type Props = {
 
 export default function Speakers({ speakers }: Props) {
   const meta = {
-    title: 'Conférenciers - Webinaires AFDEC 2021',
+    title: 'Intervenants - Webinaires AFDEC 2021',
     description: META_DESCRIPTION
   };
   return (

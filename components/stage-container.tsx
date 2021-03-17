@@ -22,6 +22,8 @@ import styles from './stage-container.module.css';
 import styleUtils from './utils.module.css';
 import ScheduleSidebar from './schedule-sidebar';
 import ConfEntry from './conf-entry';
+import VideoPlayer from './videoplayer';
+
 
 type Props = {
   stage: Stage;
@@ -43,14 +45,7 @@ export default function StageContainer({ stage, allStages }: Props) {
       <div className={styles.streamContainer}>
         {loginStatus === 'loggedIn' ? (
           <div className={cn(styles.stream, styleUtils.appear, styleUtils['appear-first'])}>
-            <iframe
-              allow="autoplay; picture-in-picture"
-              allowFullScreen
-              frameBorder="0"
-              src={`${updatedStage.stream}?autoplay=1&mute=1`}
-              title={updatedStage.name}
-              width="100%"
-            />
+           <VideoPlayer/>
             <div className={cn(styles.bottom, styleUtils.appear, styleUtils['appear-second'])}>
               <div className={styles.messageContainer}>
                 <h2 className={styles.stageName}>{stage.name}</h2>
@@ -61,7 +56,7 @@ export default function StageContainer({ stage, allStages }: Props) {
                 rel="noopener noreferrer"
                 className={styles.button}
               >
-                <span>Exprimez-vous</span>
+                <span>Joignez le chat</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
