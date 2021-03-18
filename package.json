@@ -1,10 +1,10 @@
 {
-  "name": "virtual-event-starter-kit",
-  "description": "Starter kit for your virtual event.",
+  "name": "afdec-webinars",
+  "description": "The AFDEC Webinars website.",
   "private": true,
-  "repository": "vercel/virtual-event-starter-kit",
+  "repository": "/localpat/afdec/",
   "author": "Vercel Inc.",
-  "homepage": "https://demo.vercel.events",
+  "homepage": "https://afdecarib.org",
   "license": "Apache-2.0",
   "engines": {
     "node": "12.x"

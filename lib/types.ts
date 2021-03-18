@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-export type Image = {
+ export type Image = {
   url: string;
 };
 
