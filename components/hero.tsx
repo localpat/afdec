@@ -22,35 +22,29 @@ import { BRAND_NAME, DATE, SITE_DESCRIPTION } from '@lib/constants';
 export default function Hero() {
   return (
     <div className={styles.wrapper}>
-      <h2
-        className={cn(
-          styleUtils.appear,
-          styleUtils['appear-third'],
-          styleUtils['show-on-mobile'],
-          styles.description
-        )}
-      >
-        {SITE_DESCRIPTION}
-      </h2>
+
+      
+      
       <h1 className={cn(styleUtils.appear, styleUtils['appear-third'], styles.hero)}>
-        L' {BRAND_NAME} présente :
-        <br className={styleUtils['show-on-desktop']} /> [re]penser les crises au prisme de l'exemple caribéen.
+        L' {BRAND_NAME} présente
       </h1>
       <h2
         className={cn(
           styleUtils.appear,
           styleUtils['appear-third'],
-          styleUtils['show-on-tablet'],
           styles.description
         )}
       >
-        {SITE_DESCRIPTION}
+        {SITE_DESCRIPTION}  
       </h2>
+      
+      
+      
       <div className={cn(styleUtils.appear, styleUtils['appear-fourth'], styles.info)}>
         <p>{DATE}</p>
         <div className={styles['description-separator']} />
         <p>
-          <strong>Online</strong>
+          <a href="/stage/a"><strong>Suivez le live</strong></a>
         </p>
       </div>
     </div>
