@@ -3,7 +3,7 @@ import Hls from 'hls.js';
 
 export default function VideoPlayer() {
   const videoRef = useRef(null);
-  const src = "https://stream.mux.com/4wwDVAkuTDzJLvJ00XpujuA7aXFn9q9mTFCuM1jFko1g.m3u8";
+  const src = "https://stream.mux.com/{PLAYBACK_ID}.m3u8";
 
   useEffect(() => {
     let hls;
@@ -34,7 +34,7 @@ export default function VideoPlayer() {
     <video
       controls
       ref={videoRef}
-      style={{ width: "100%"}}
+      style={{ width: "100%" }}
     />
   );
 }
