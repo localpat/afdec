@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
- export const SITE_URL = 'https://afdecarib.org/webinaires';
+ export const SITE_URL = 'https://afdecarib.org/webinaires2021';
  export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
  export const TWITTER_USER_NAME = 'afdec';
  export const BRAND_NAME = 'AFDEC';
  export const SITE_NAME_MULTILINE = ['Webinaires', 'AFDEC'];
  export const SITE_NAME = 'Webinaires AFDEC';
  export const META_DESCRIPTION =
-   "L' AFDEC (Association Francophone d Etudes Caribbeenes) propose une série de séminaires sur le thème : [re]penser les crises au prisme de l'exemple Caribéen.";
+   "L' AFDEC (Association Francophone d Etudes Caribéennes) propose une série de séminaires sur le thème : [re]penser les crises au prisme de l'exemple Caribéen.";
  export const SITE_DESCRIPTION =
    "Une série de rencontres pour [re]penser les crises au prisme de l'exemple caribéen.";
  export const DATE = '18/03/21 - 20/04/21 - 01/06/21 - 21/09/21';
