@@ -21,7 +21,7 @@ import useLoginStatus from '@lib/hooks/use-login-status';
 import styles from './stage-container.module.css';
 import styleUtils from './utils.module.css';
 import ScheduleSidebar from './schedule-sidebar';
-import ConfEntry from './conf-entry';
+
 import VideoPlayer from './videoplayer';
 
 
@@ -38,12 +38,12 @@ export default function StageContainer({ stage, allStages }: Props) {
 
   const updatedStages = response.data || [];
   const updatedStage = updatedStages.find((s: Stage) => s.slug === stage.slug) || stage;
-  const { loginStatus, mutate } = useLoginStatus();
+ 
 
   return (
     <div className={styles.container}>
       <div className={styles.streamContainer}>
-        {loginStatus === 'loggedIn' ? (
+       
           <div className={cn(styles.stream, styleUtils.appear, styleUtils['appear-first'])}>
            <VideoPlayer/>
             <div className={cn(styles.bottom, styleUtils.appear, styleUtils['appear-second'])}>
@@ -75,9 +75,7 @@ export default function StageContainer({ stage, allStages }: Props) {
               </a>
             </div>
           </div>
-        ) : loginStatus === 'loading' ? null : (
-          <ConfEntry onRegister={() => mutate()} />
-        )}
+        
       </div>
       <ScheduleSidebar allStages={updatedStages} />
     </div>
