@@ -44,8 +44,9 @@ export default function Hero() {
         <p>{DATE}</p>
         <div className={styles['description-separator']} />
         <p>
-          <a href="/stage/a"><strong>Suivez le live</strong></a>
+          <a href="https://hopin.com/events/afdec"><strong>Suivez le live ON HOPIN</strong></a>
         </p>
+        <p> * Séance interactive, enregistrement préalable. Venez 10 min plutôt</p>
       </div>
     </div>
   );
