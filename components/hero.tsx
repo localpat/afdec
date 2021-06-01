@@ -46,7 +46,7 @@ export default function Hero() {
         <p>
           <a href="https://hopin.com/events/afdec"><strong>Suivez le live ON HOPIN</strong></a>
         </p>
-        <p> * Séance interactive, enregistrement préalable. Venez 10 min plutôt</p>
+        
       </div>
     </div>
   );

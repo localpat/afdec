@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
- export const SITE_URL = 'https://afdecarib.org/webinaires2021';
+ export const SITE_URL = 'https://afdecarib.org/';
  export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
  export const TWITTER_USER_NAME = 'afdec';
  export const BRAND_NAME = 'AFDEC';
@@ -25,8 +25,8 @@
  export const SITE_DESCRIPTION =
    "Une série de rencontres pour [re]penser les crises au prisme de l'exemple caribéen.";
  export const DATE = '18/03/21 - 20/04/21 - 01/06/21 - 21/09/21';
- export const SHORT_DATE = 'Oct 27 - 9:00am PST';
- export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
+ export const SHORT_DATE = '01 Jun - 9:00am EST';
+ export const FULL_DATE = '01 Jun  9am Eastern StandardTime (GMT-4)';
  export const TWEET_TEXT = META_DESCRIPTION;
  export const COOKIE = 'user-id';
  
